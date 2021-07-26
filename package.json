@@ -1,0 +1,29 @@
+{
+  "name": "ahj-http-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "node-unique-id-generator": "^0.1.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KateYachmeneva/ahj-http-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KateYachmeneva/ahj-http-backend/issues"
+  },
+  "homepage": "https://github.com/KateYachmeneva/ahj-http-backend#readme"
+}
