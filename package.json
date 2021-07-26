@@ -15,9 +15,13 @@
     "nodemon": "^2.0.7"
   },
   "scripts": {
-    "start": "node index",
-    "start:dev": "nodemon index"
-  },
+    "prestart":"npm install",
+    "start": "forever server.js",
+    "watch":"forever -w server.js",
+     },
+ "engines":{
+   "node":"11.x"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KateYachmeneva/ahj-http-backend.git"
