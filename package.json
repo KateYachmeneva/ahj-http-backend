@@ -17,7 +17,7 @@
   "scripts": {
     "prestart":"npm install",
     "start": "forever server.js",
-    "watch":"forever -w server.js",
+    "watch":"forever -w server.js"
      },
  "engines":{
    "node":"11.x"
